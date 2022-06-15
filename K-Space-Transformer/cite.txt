@@ -1,0 +1,17 @@
+@misc{https://doi.org/10.48550/arxiv.2206.06947,
+  doi = {10.48550/ARXIV.2206.06947},
+  
+  url = {https://arxiv.org/abs/2206.06947},
+  
+  author = {Zhao, Ziheng and Zhang, Tianjiao and Xie, Weidi and Wang, Yanfeng and Zhang, Ya},
+  
+  keywords = {Image and Video Processing (eess.IV), Computer Vision and Pattern Recognition (cs.CV), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {K-Space Transformer for Fast MRIReconstruction with Implicit Representation},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
