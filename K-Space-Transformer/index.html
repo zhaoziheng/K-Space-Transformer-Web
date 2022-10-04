@@ -163,13 +163,13 @@
   }
 </style>
 
-	<title>K-Space Transformer for Fast MRI Reconstruction</title>
+	<title>K-Space Transformer for Undersampled MRI Reconstruction</title>
 </head>
 
 <body>
 	<br>
 	<center>
-	<span style="font-size:36px">K-Space Transformer for Fast MRI Reconstruction with Implicit Representation</span><br><br><br>
+	<span style="font-size:36px">K-Space Transformer for Undersampled MRI Reconstruction</span><br><br><br>
 	</center>
 	<table align="center" width="800px">
             <tbody><tr>
@@ -255,8 +255,17 @@
       <center><h2> Abstract </h2> </center>
       <p style="text-align:justify; text-justify:inter-ideograph;">
       <left>
-	      The goal of this paper is on fast MRI reconstruction. Specifically, we propose a novel Transformer-based framework for directly processing the sparsely sampled signals in k-space, going beyond the limitation of regular grids as ConvNets do. We consider an implicit representation of spectrogram, treating spatial coordinates as inputs, and dynamically query the partially observed measurements to complete the spectrogram, i.e. learning the inductive bias in k-space. To strive a balance between computational cost and reconstruction quality, we build an hierarchical structure with low-resolution and high-resolution decoders respectively. To validate the necessity of our proposed modules, we have conducted extensive experiments on two public datasets, and demonstrate superior or comparable performance over state-of-the-art approaches.
+	      This paper considers the problem of undersampled MRI reconstruction. We propose a novel Transformer-based framework for directly processing signal in k-space, going beyond the limitation of regular grids as ConvNets do. As shown in the following figure, we adopt an implicit representation of k-sapce spectrogram, treating spatial coordinates as inputs, and dynamically query the sparsely sampled points to reconstruct the spectrogram, i.e. learning the inductive bias in k-space. To strike a balance between computational cost and reconstruction quality, we build the decoder with hierarchical structure to generate low-resolution and high-resolution outputs respectively. To validate the effectiveness of our proposed method, we have conducted extensive experiments on two public datasets, and demonstrate superior or comparable performance to state-of-the-art approaches. 
       </left></p>
+      <table align="center" width="800px">
+            <tbody><tr>
+              <td align="center" width="600px">
+                <center>
+                  <img style="width:700px" src='./resources/teaser.jpg'></img>
+                </center>
+              </td>
+            </tr></tbody>
+      </table>
 	
       <br><hr>
       <center> <h2> Method </h2> </center>
@@ -270,7 +279,7 @@
             <tbody><tr>
               <td align="center" width="600px">
                 <center>
-                  <img style="width:650px" src='./resources/framework.png'></img>
+                  <img style="width:700px" src='./resources/framework.jpg'></img>
                 </center>
               </td>
             </tr></tbody>
