@@ -2,6 +2,5 @@
   title={K-Space Transformer for Undersampled MRI Reconstruction}
   author={Ziheng Zhao and Tianjiao Zhang and Weidi Xie and Yanfeng Wang and Ya Zhang},
   booktitle={British Machine Vision Conference (BMVC)},
-  year={2022},
-  organization={Springer}
+  year={2022}
 }
